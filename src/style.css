@@ -78,6 +78,11 @@ nav ul {
   font-weight: 400;
 }
 
+nav li {
+  display: inline;
+  margin-left: 25px;
+}
+
 nav a {
   text-decoration: none;
   color: var(--second-color);
@@ -89,18 +94,43 @@ nav li.active a {
   color: var(--first-color);
 }
 
+hr {
+  height: 2px;
+  background-color: var(--first-color);
+  border: 2px solid var(--first-color);
+  opacity: 1;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 1);
+}
+
+.line-one {
+  margin: 160px 0px 20px;
+}
+
+.line-two {
+  margin: 20px 0px 160px;
+}
+
 h1 {
-  color: var(--fourth-color);
+  color: var(--first-color);
   text-align: center;
-  margin: 140px auto 0px;
-  font-size: 80px;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 80px;
 }
 
 h2 {
-  color: var(--third-color);
+  color: var(--second-color);
   text-align: center;
-  font-style: italic;
-  margin: 0px auto 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h3 {
+  color: var(--second-color);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 .button-link {
