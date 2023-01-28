@@ -3,7 +3,7 @@
   --second-color: #eeeeee;
   --third-color: #3a4750;
   --fourth-color: #303841;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  --box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 700px) {
@@ -71,20 +71,19 @@ nav {
 }
 
 nav ul {
-  list-style: none;
   margin-top: 5px;
   padding: 0px;
-  font-size: 20px;
-  font-weight: 400;
 }
 
 nav li {
   display: inline;
   margin-left: 25px;
+  font-weight: 400;
+  font-size: 20px;
+  list-style: none;
 }
 
 nav a {
-  text-decoration: none;
   color: var(--second-color);
   transition: all 100ms ease-in-out;
 }
@@ -103,34 +102,75 @@ hr {
 }
 
 .line-one {
-  margin: 160px 0px 20px;
+  margin: 160px 0px 50px;
 }
 
 .line-two {
-  margin: 20px 0px 160px;
+  margin: 50px 0px 100px;
 }
 
 h1 {
   color: var(--first-color);
   text-align: center;
-  font-size: 36px;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: 600;
   font-style: italic;
   line-height: 80px;
 }
 
 h2 {
-  color: var(--second-color);
-  text-align: center;
-  font-size: 20px;
-  font-weight: 300;
+  color: var(--first-color);
+  font-size: 36px;
+  font-weight: 500;
 }
 
 h3 {
   color: var(--second-color);
   text-align: center;
   font-size: 20px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img-homepage {
+  max-width: 65%;
+  border: 10px solid var(--fourth-color);
+  border-radius: 5px;
+  padding: 0px;
+}
+
+.project-info {
+  margin-top: -100px;
+  background-color: var(--third-color);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  z-index: -1;
+  padding: 50px 100px;
+}
+
+.project-info h2 {
+  font-size: 48px;
+}
+
+.project-info p {
+  font-size: 24px;
   font-weight: 300;
+  color: var(--second-color);
+  margin: 50px 0;
+  text-align: justify;
+}
+
+.project-info a {
+  background-color: var(--first-color);
+  color: var(--second-color);
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
 }
 
 .button-link {
@@ -165,15 +205,7 @@ h3 {
 
 a {
   text-align: center;
-  font-weight: 500;
   font-size: 20px;
-}
-
-p {
-  color: var(--second-color);
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
 }
 
 .about-me-paragraph {
