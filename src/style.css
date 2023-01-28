@@ -216,14 +216,21 @@ i {
   padding: 10px 0;
 }
 
-.introduction a {
-  padding: 10px 100px;
+.button-1 {
+  margin: 20px auto 20px;
+  padding: 10px 50px;
+}
+
+.button-2 {
+  margin: 20px auto 20px;
+  padding: 10px 85px;
 }
 
 .profile {
   margin: -100px auto;
   border: 10px solid var(--fourth-color);
   padding: 0;
+  width: 550px;
 }
 
 footer a {
