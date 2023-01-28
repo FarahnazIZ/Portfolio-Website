@@ -135,15 +135,15 @@ a {
   text-decoration: none;
 }
 
-.img-homepage {
-  max-width: 65%;
+img {
   border: 10px solid var(--fourth-color);
   border-radius: 5px;
-  padding: 0px;
+  padding: 0;
 }
 
 .project-info {
   margin-top: -100px;
+  margin-bottom: 100px;
   background-color: var(--third-color);
   border-radius: 5px;
   box-shadow: var(--box-shadow);
