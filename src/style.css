@@ -142,9 +142,12 @@ a {
 }
 
 img {
-  border: 10px solid var(--fourth-color);
   border-radius: 5px;
   padding: 0;
+}
+
+footer {
+  margin-top: 80px;
 }
 
 i {
@@ -154,13 +157,14 @@ i {
 }
 
 .project-info {
-  margin-top: -100px;
-  margin-bottom: 100px;
-  background-color: var(--third-color);
-  border-radius: 5px;
-  box-shadow: var(--box-shadow);
-  z-index: -1;
   padding: 50px 80px;
+  opacity: 0;
+  transition: all 100ms ease-in-out;
+}
+
+.project-info:hover {
+  opacity: 1;
+  background-color: rgba(58, 71, 80, 0.9);
 }
 
 .project-info h2 {
@@ -181,6 +185,7 @@ i {
   display: block;
   text-align: center;
   font-size: 24px;
+  margin-right: 50%;
   padding: 10px 0;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
