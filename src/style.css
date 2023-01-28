@@ -39,6 +39,10 @@
     border-radius: 0 !important;
   }
 
+  .line-one.about-me {
+    margin-bottom: 20px !important;
+  }
+
   .line-two {
     margin-bottom: 60px !important;
   }
@@ -66,6 +70,20 @@
   .project-info a {
     margin: auto !important;
     font-size: 20px !important;
+  }
+
+  .introduction {
+    text-align: center;
+    margin-top: 5px !important;
+  }
+
+  .introduction span,
+  .introduction h1 {
+    font-size: 32px !important;
+  }
+
+  .introduction a {
+    font-size: 18px !important;
   }
 }
 
@@ -172,11 +190,10 @@ i {
   margin: 0px 20px 20px;
 }
 
-.introduction SPAN {
+.introduction span {
   color: var(--second-color);
   font-size: 40px;
   font-weight: 600;
-
   line-height: 80px;
 }
 
@@ -216,21 +233,17 @@ i {
   padding: 10px 0;
 }
 
-.button-1 {
-  margin: 20px auto 20px;
-  padding: 10px 50px;
-}
-
-.button-2 {
-  margin: 20px auto 20px;
-  padding: 10px 85px;
+.introduction a {
+  padding: 10px;
+  margin: 20px auto 30px;
 }
 
 .profile {
-  margin: -100px auto;
-  border: 10px solid var(--fourth-color);
-  padding: 0;
-  width: 550px;
+  background-color: var(--third-color);
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 100%;
+  box-shadow: var(--box-shadow);
 }
 
 footer a {
