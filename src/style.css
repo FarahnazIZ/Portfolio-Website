@@ -3,6 +3,7 @@
   --second-color: #eeeeee;
   --third-color: #3a4750;
   --fourth-color: #303841;
+  --background-color: rgba(58, 71, 80, 0.9);
   --box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -50,6 +51,7 @@
   .project-info {
     margin-top: 0px !important;
     margin-bottom: 50px !important;
+    padding: 30px 50px !important;
     opacity: 1 !important;
     background-color: var(--third-color);
   }
@@ -205,7 +207,7 @@ i {
 
 .project-info:hover {
   opacity: 1;
-  background-color: rgba(58, 71, 80, 0.9);
+  background-color: var(--background-color);
 }
 
 .project-info h2 {
@@ -218,13 +220,21 @@ i {
 }
 
 .project-info a,
-.introduction a {
+.introduction a,
+.certificates a {
   background-color: var(--first-color);
   color: var(--second-color);
   text-align: center;
   font-size: 24px;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
+  transition: all 90ms ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--background-color);
+  border: 1px solid var(--first-color);
+  color: var(--first-color);
 }
 
 .project-info a {
@@ -238,12 +248,26 @@ i {
   margin: 20px auto 30px;
 }
 
+.certificates a {
+  padding: 10px 30px;
+}
+
 .profile {
   background-color: var(--third-color);
   border-radius: 5px;
   padding: 10px;
   max-width: 100%;
   box-shadow: var(--box-shadow);
+}
+
+.certificates img {
+  max-width: 100%;
+}
+
+.certificates p {
+  padding: 20px;
+  background-color: var(--background-color);
+  border-radius: 5px;
 }
 
 footer a {
