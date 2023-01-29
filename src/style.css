@@ -267,6 +267,11 @@ i {
   border-radius: 5px;
 }
 
+.projects img {
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
 footer a {
   color: var(--second-color);
   display: block;
