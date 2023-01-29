@@ -30,22 +30,48 @@
     <title>Farahnaz Izadi | Portfolio</title>
   </head>
   <body>
+    <nav class="fixed-top">
+      <div><a href="/" class="logo">Farahnaz Izadi</a></div>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li>
+          <a href="/about-me.html">About</a>
+        </li>
+        <li class="active">
+          <a href="/work.html">Projects</a>
+        </li>
+        <li>
+          <a href="/contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <hr class="line-one" />
     <div class="container">
-      <nav class="fixed-top">
-        <div><a href="/" class="logo">Farahnaz Izadi</a></div>
-        <ul>
-          <li class="d-inline me-4"><a href="/">Home</a></li>
-          <li class="d-inline me-4">
-            <a href="/about-me.html">About</a>
-          </li>
-          <li class="d-inline me-4 active">
-            <a href="/work.html">Work</a>
-          </li>
-          <li class="d-inline me-4">
-            <a href="/contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="row projects">
+        <div class="col-8">
+          <img src="/img/weather-app.jpg" alt="weather app homepage" />
+        </div>
+        <div class="col-4">
+          <h2>Weather App</h2>
+          <hr class="mb-4" />
+          <div class="d-flex justify-content-evenly">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <hr class="mt-2" />
+          <p>
+            This weather app is my very first real application I ever made. It
+            shows the current weather and the next six days of your city or any
+            city in the world. The current weather temperature is shown both in
+            celsius and fahrenheit. Plus, you can see the humidity and wind
+            speed of the day. <br />
+            This application is made by advanced HTML, CSS, and JavaScript (ES6)
+            and integrated with SheCodes live weather API.
+          </p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

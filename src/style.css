@@ -180,6 +180,7 @@ a {
 
 img {
   padding: 0;
+  max-width: 100%;
 }
 
 footer {
@@ -258,10 +259,6 @@ i {
   padding: 10px;
   max-width: 100%;
   box-shadow: var(--box-shadow);
-}
-
-.certificates img {
-  max-width: 100%;
 }
 
 .certificates p {
