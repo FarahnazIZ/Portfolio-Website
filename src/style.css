@@ -95,6 +95,7 @@
   .introduction {
     text-align: center;
     margin-top: 5px !important;
+    padding: 0 30px !important;
   }
 
   .introduction span,
@@ -108,6 +109,14 @@
 
   .contact hr {
     max-width: 60% !important;
+  }
+
+  .projects {
+    padding: 0 20px !important;
+  }
+
+  .certificates {
+    padding: 0 20px !important;
   }
 
   footer {
@@ -368,6 +377,9 @@ footer p {
 .projects img {
   border-radius: 5px;
   box-shadow: var(--box-shadow);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .contact a {
