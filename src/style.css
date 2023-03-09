@@ -37,7 +37,6 @@
   img {
     margin: auto;
     border: none !important;
-    border-radius: 0 !important;
   }
 
   .line-one.about-me {
@@ -50,14 +49,7 @@
 
   .project-info {
     margin-top: 0px !important;
-    margin-bottom: 50px !important;
     padding: 30px 50px !important;
-    opacity: 1 !important;
-    background-color: var(--third-color);
-  }
-
-  .project-info:hover {
-    background-color: rgba(58, 71, 80, 1) !important;
   }
 
   .project-info h2 {
@@ -238,8 +230,8 @@ footer p {
 }
 
 .project-info p {
-  margin: 50px 0;
   text-align: start;
+  margin: 10px auto 20px;
 }
 
 .project-info a,
